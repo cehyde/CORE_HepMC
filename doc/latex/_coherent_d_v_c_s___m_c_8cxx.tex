@@ -1,0 +1,30 @@
+\hypertarget{_coherent_d_v_c_s___m_c_8cxx}{}\doxysubsection{src/\+Coherent\+DVCS\+\_\+\+MC.cxx File Reference}
+\label{_coherent_d_v_c_s___m_c_8cxx}\index{src/CoherentDVCS\_MC.cxx@{src/CoherentDVCS\_MC.cxx}}
+
+
+$l {}^{A}Z \to l {}^{A}Z \gamma $ lepto-\/production cross sections (electron or muon)  
+
+
+{\ttfamily \#include \char`\"{}Coherent\+DVCS\+\_\+\+MC.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/\+Deep\+\_\+event.\+cxx\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8cxx_ad810413fbaacd46c755d553a099c8305}\label{_coherent_d_v_c_s___m_c_8cxx_ad810413fbaacd46c755d553a099c8305}} 
+int \mbox{\hyperlink{_coherent_d_v_c_s___m_c_8cxx_ad810413fbaacd46c755d553a099c8305}{Init\+\_\+\+Kin}} (char $\ast$in\+File)
+\begin{DoxyCompactList}\small\item\em Read input file to initialize Monte-\/\+Carlo event generation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8cxx_a4aa70090cf027810bc53a91e6d9a3fcf}\label{_coherent_d_v_c_s___m_c_8cxx_a4aa70090cf027810bc53a91e6d9a3fcf}} 
+double {\bfseries Gamma\+Smear} (TLorentz\+Vector p4gamma, double $\ast$vec4out)
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8cxx_a64cc39874478ff8cb3551e66a9949654}\label{_coherent_d_v_c_s___m_c_8cxx_a64cc39874478ff8cb3551e66a9949654}} 
+int \mbox{\hyperlink{_coherent_d_v_c_s___m_c_8cxx_a64cc39874478ff8cb3551e66a9949654}{Coherent\+DVCS\+\_\+\+MC}} (const int n\+Events=1, const double tmin=-\/1.\+0)
+\begin{DoxyCompactList}\small\item\em Monte-\/\+Carlo Driver. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+$l {}^{A}Z \to l {}^{A}Z \gamma $ lepto-\/production cross sections (electron or muon) 
+
+Input beam kinematics allow fixed target, head-\/on collisions, and crossing-\/angle collisions.
+
+Created by Hyde, Charles E. on 18-\/June-\/2021. 

@@ -1,0 +1,38 @@
+\_form#0=69x14:$l {}^{A}Z \to l {}^{A}Z \gamma $
+\_form#1=223x15:$ k_0^\mu,\quad P_0^\mu,\quad Y^\mu = [0,0,1,0] = {\rm Vertical Up} $
+\_form#2=348x16:\[ k^\mu,\, P^\mu,\, k^{\prime\mu},\, q^\mu = (k=k')^\mu,\, P_{\pi\pi}^\mu,\, P^{\prime\mu}, \Delta^\mu = (P'-P)^\mu, p^\mu_{\pi^+}, p^\mu_{\pi^-} \]
+\_form#3=166x16:\[ n_{e,0}^\mu,\, \widetilde n_{e,0}^\mu,\, X_{e,0}^\mu,\, Y_{e,0}^\mu,\, Z_{e,0}^\mu,\, T_{e,0}^\mu \]
+\_form#4=15x10:$eP$
+\_form#5=15x13:$qP$
+\_form#6=71x15:\[ n_{e}^\mu,\, \widetilde n_{e}^\mu,\, n_q^\mu \widetilde n_q^\mu \]
+\_form#7=89x14:\[ X_{e}^\mu,\, Y_{e}^\mu,\, Z_{e}^\mu,\, T_{e}^\mu \]
+\_form#8=89x15:\[ X_{q}^\mu,\, Y_{q}^\mu,\, Z_{q}^\mu,\, T_{q}^\mu \]
+\_form#9=31x13:$ q+P$
+\_form#10=161x16:\[ X_{q,CM}^\mu,\, Y_{q,CM}^\mu,\, n_{q,CM}^\mu,\, \widetilde n_{q,CM}^\mu \]
+\_form#11=76x14:$e {}^{A}Z \to e' {}^{A}Z \gamma$
+\_form#12=255x125:\begin{align*} n4 &= ({\tt k4Beam} - \beta*{\tt P4Beam})/norm\\ {\tt n4Tilde}&= ({\tt P4Beam}+\beta' *{\tt k4Beam})/norm2; \\ n4\cdot n4 &= 0 = n4Tilde\cdot n4Tilde \\ n4\cdot n4Tilde &= 1 \\ { k\cdot\_P} &= k4Beam.Dot(P4Beam); \\ {\tt sqrtDL} &= mLepton*MIon/{\tt (k\cdot_P)}; \\ {\tt deltaL} &= {\tt sqrtDL}* {\tt sqrtDL} = \delta_L; \\ \end{align*}
+\_form#13=429x289:\begin{align} n_e^\mu &= \displaystyle \frac{\left[ k^\mu \left(1+\sqrt{1-\delta_l}\right) - \frac{m_l^2}{k\cdot P} P^\mu \right] }{\left[2 \sqrt{(k\cdot P)(1-\delta_l)} \right]} \nonumber \\ \qquad\qquad k^2 &= m_l^2, \qquad \delta_l = \left[\frac{m_l M_{\rm Ion}}{k\cdot P}\right]^2 \nonumber \\ \widetilde n_e^\mu &= \displaystyle \left[P^\mu - \frac{M_{\rm Ion}^2}{(k\cdot P)\left(1+\sqrt{1-\delta_l}\right)}k^\mu \right]\left/\frac{1}{\sqrt{(k\cdot P)(1-\delta_l)}} \right. \nonumber\\ n_e\cdot n_e &= 0 = \widetilde n_e\cdot \widetilde n_e \nonumber \nonumber\\ n_e\cdot \widetilde n_e &= 1 \\ \intertext{Transverse vectors} {\tt Y4Det} &= [0,0,1,0] = Y4_\text{Det}^\mu = \text{ ``up in Detector frame''} \nonumber\\ [X4_{e0}]_\sigma &=\epsilon_{\mu\nu\rho\sigma}n_e^\mu \widetilde n_e^\nu Y4_{Det}^\rho \nonumber \\ [X4]_e^\mu &= X4_{e0}^\mu/\sqrt{-X4_{e0}\cdot X4_{e0} } \nonumber\\ [Y4_e]_\sigma &= \epsilon_{\mu\nu\rho\sigma}n_e^\mu [X4]_e^\nu \widetilde n_e^\rho \end{align}
+\_form#14=35x13:$k^\mu, P^\mu$
+\_form#15=35x15:$k_0^\mu, P_0^\mu$
+\_form#16=43x14:$ X_e^\mu,\, Y_e^\mu$
+\_form#17=229x18:\[\left\{Q^2, y=q\cdot P/(k\cdot P), \phi_e, \cos(\theta_{\gamma\gamma}^{CM}), \phi_{\gamma\gamma}^{CM} \right\}\]
+\_form#18=71x14:$ n_q, \widetilde n_q, X_q, Y_q$
+\_form#19=10x10:$k'$
+\_form#20=521x101:\begin{align} \left[\begin{array}{r} Q^2 + 2 m_l^2 \\ 2(k\cdot P)(1-y) \end{array}\right] &= 2 \left[\begin{array}{rr} k\cdot \widetilde n_e,&\ k\cdot n_e \\ P\cdot \widetilde n_e,& P\cdot n_e \end{array}\right] \left[\begin{array}{r} k' \cdot n_e \\ k' \cdot \widetilde n_e \end{array}\right] \\ \left[\begin{array}{r} k' \cdot n_e \\ k' \cdot \widetilde n_e \end{array}\right] &= \frac{1}{(k\cdot \widetilde n_e)(P\cdot n_e) - (k\cdot n_e)(P\cdot \widetilde n_e)} \left[\begin{array}{rr} P\cdot n_e,&\ -k\cdot n_e \\ -P\cdot \widetilde n_e,& k\cdot \widetilde n_e \end{array}\right] \left[\begin{array}{r} Q^2/2 + m_l^2 \\ (k\cdot P)(1-y) \end{array}\right] \\ \mathbf k_\perp^{\prime 2} &= 2(k'\cdot n_e)(k'\cdot \widetilde n_e) - m_l^2 \end{align}
+\_form#21=421x98:\begin{align} n_q^\mu &= \frac{1}{\sqrt{2(1+\delta_Q)} } \left[ q^\mu \frac{M_{Ion}}{q\cdot P} + P^\mu \frac{\delta_Q}{M_{Ion}\left(1+\sqrt{1+\delta_Q}\right)} \right], \qquad \delta_Q = \frac{Q^2 M_\text{Ion}^2}{(q\cdot P)^2} \\ \widetilde n_q^\mu &= \frac{1}{\sqrt{2(1+\delta_Q)} } \left[ P^\mu \frac{\left(1+\sqrt{1+\delta_Q}\right)}{M_\text{Ion}} - q^\mu \frac{M_\text{Ion}}{q\cdot P} \right] \end{align}
+\_form#22=31x13:$q+P$
+\_form#23=43x15:$X_q^\mu,\, Y_q^\mu$
+\_form#24=36x15:$n_q^\mu,\, \widetilde n_q^\mu$
+\_form#25=216x14:$ \mathbf v =\left.\left[ \widetilde n_q.Px(), \widetilde n_q.Py(), \widetilde n_q.Pz() \right]\right/ \widetilde n_q.E() $
+\_form#26=16x6:$\pi\pi$
+\_form#27=55x16:$\cos\left(\theta_{\pi\pi}^{CM}\right) $
+\_form#28=25x15:$\phi_{\pi\pi}^{CM}$
+\_form#29=266x40:\[ \left[ \begin{array}{r} E' \\ \left|\mathbf P^\prime\right| \\ \end{array} \right]^{CM} = \left[ \begin{array}{r} (W^2+M_\text{Ion}^2-M_{\pi\pi}^2) / (2\sqrt{W^2}) \\ \sqrt{\left[E^{\prime\text{CM}}\right]^2 - M_\text{Ion}^2} \end{array} \right] \]
+\_form#30=208x35:\[ \mathbf v = \left[ \frac{\widetilde n_q.Px()}{\widetilde n_q.E()},\, \frac{\widetilde n_q.Py()}{\widetilde n_q.E()},\, \frac{\widetilde n_q.Pz()}{\widetilde n_q.E()}\right]^{CM} \]
+\_form#31=205x20:\[ \left[P_L^{\prime \mu}\right]^{CM} = \left[ E^{\prime}, -\left|\mathbf P'\right| \cos\left(\theta_{\pi\pi}^\text{CM}\right) \mathbf v \right]^\text{CM} \]
+\_form#32=479x19:\[ P^{\prime\, \mu} = \left(P_L^{\prime\,CM}\cdot n_q^{CM} \right) \widetilde n_q^\mu + \left(P_L^{\prime\,CM}\cdot \widetilde n_q^{CM} \right) n_q^\mu - \left|\mathbf P'\right|^\text{CM} \sin\theta_{\pi\pi}^{CM} \left[ \cos\phi_{\pi\pi}^{CM} X_q^\mu + \sin\phi_{\pi\pi}^{CM} Y_q^\mu \right] \]
+\_form#33=119x15:\[P_{\pi\pi}^{\mu} = q^\mu + P^\mu - P^{\prime\,\mu} \]
+\_form#34=361x33:\begin{align} {\tt vec4out}_{[0,1,2,3]} = {\tt vec4out}_\mu &= \epsilon_{\mu \nu \rho \sigma} {\tt vec1}^\nu {\tt vec2}^\rho {\tt vec3}^\sigma \nonumber \\ \epsilon_{0123} &= 1 \end{align}
+\_form#35=411x51:\begin{align} *{\tt Scalar} &= \epsilon_{\mu \nu \rho \sigma} {\tt vec4_1}^\mu {\tt vec4_2}^\nu {\tt vec4_3}^\rho {\tt vec4_4}^\sigma\\ \epsilon_{0123} &= 1. \qquad\text{In TLorentzVector Notation}\quad\epsilon_{xyzt} = -\epsilon_{0123} = -1\\ \end{align}
+\_form#36=65x13:$e p \to e' p' \pi \pi$
+\_form#37=94x14:$= \lambda_q(i) \in {-1,0,1} $

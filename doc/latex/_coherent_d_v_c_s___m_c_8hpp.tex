@@ -1,0 +1,249 @@
+\hypertarget{_coherent_d_v_c_s___m_c_8hpp}{}\doxysubsection{src/\+Coherent\+DVCS\+\_\+\+MC.hpp File Reference}
+\label{_coherent_d_v_c_s___m_c_8hpp}\index{src/CoherentDVCS\_MC.hpp@{src/CoherentDVCS\_MC.hpp}}
+
+
+File defines global variables (constants, and event-\/by-\/event variables).  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$TCanvas.\+h$>$}\newline
+{\ttfamily \#include $<$TH2\+D.\+h$>$}\newline
+{\ttfamily \#include $<$TRandom3.\+h$>$}\newline
+{\ttfamily \#include $<$TVector3.\+h$>$}\newline
+{\ttfamily \#include $<$TLorentz\+Vector.\+h$>$}\newline
+{\ttfamily \#include $<$TH1\+D.\+h$>$}\newline
+{\ttfamily \#include $<$TMath.\+h$>$}\newline
+{\ttfamily \#include $<$TDatabase\+PDG.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a8682557aa4f6e7e2bc4c67262b5250b2}\label{_coherent_d_v_c_s___m_c_8hpp_a8682557aa4f6e7e2bc4c67262b5250b2}} 
+bool {\bfseries e\+Smear} (false)
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a890d372339728db853301f77448c9819}\label{_coherent_d_v_c_s___m_c_8hpp_a890d372339728db853301f77448c9819}} 
+bool {\bfseries i\+Smear} (false)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a0b1a09b00978eeee26630a9d59a8fe46}\label{_coherent_d_v_c_s___m_c_8hpp_a0b1a09b00978eeee26630a9d59a8fe46}} 
+const double {\bfseries Two\+Pi} = 2.\+0$\ast$TMath\+::\+Pi()
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_af11c6b08224cec7622c59d8971b1a806}\label{_coherent_d_v_c_s___m_c_8hpp_af11c6b08224cec7622c59d8971b1a806}} 
+auto {\bfseries db\+PDG} = TDatabase\+PDG\+::\+Instance()
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a5061651073e93b4ae896e423f466a46d}\label{_coherent_d_v_c_s___m_c_8hpp_a5061651073e93b4ae896e423f466a46d}} 
+TRandom3 {\bfseries ran3}
+\item 
+TLorentz\+Vector {\bfseries k4\+Beam0}
+\item 
+TLorentz\+Vector {\bfseries P4\+Beam0}
+\item 
+TLorentz\+Vector {\bfseries Y4det}
+\item 
+TLorentz\+Vector \mbox{\hyperlink{group___four_vectors_ga525f6095dfcbddb3c00b41dee7f71ae4}{k4\+Beam}}
+\item 
+TLorentz\+Vector {\bfseries P4\+Beam}
+\item 
+TLorentz\+Vector {\bfseries k4\+Scat}
+\item 
+TLorentz\+Vector {\bfseries q4\+Virt}
+\item 
+TLorentz\+Vector {\bfseries q4\+Prime}
+\item 
+TLorentz\+Vector {\bfseries P4\+Scat}
+\item 
+TLorentz\+Vector {\bfseries Delta4vec}
+\item 
+TLorentz\+Vector {\bfseries P4\+Tot}
+\item 
+TLorentz\+Vector \mbox{\hyperlink{group___four_vectors_gaf161d91ed3d3b29bac2cb7a80c4e9ab2}{n4\+\_\+e0}}
+\item 
+TLorentz\+Vector {\bfseries n4\+Tilde\+\_\+e0}
+\item 
+TLorentz\+Vector {\bfseries X4\+\_\+e0}
+\item 
+TLorentz\+Vector {\bfseries Y4\+\_\+e0}
+\item 
+TLorentz\+Vector {\bfseries Z4\+\_\+e0}
+\item 
+TLorentz\+Vector {\bfseries T4\+\_\+e0}
+\item 
+TLorentz\+Vector \mbox{\hyperlink{group___four_vectors_ga0b3b89d13db80077ed4406b4de2b2ff3}{n4\+\_\+e}}
+\item 
+TLorentz\+Vector {\bfseries n4\+Tilde\+\_\+e}
+\item 
+TLorentz\+Vector {\bfseries n4\+\_\+q}
+\item 
+TLorentz\+Vector {\bfseries n4\+Tilde\+\_\+q}
+\item 
+TLorentz\+Vector \mbox{\hyperlink{group___four_vectors_ga0defaf9034c3836cea2a53e60a76cc40}{Y4\+\_\+\+Det}}
+\item 
+TLorentz\+Vector {\bfseries X4\+\_\+e}
+\item 
+TLorentz\+Vector {\bfseries Y4\+\_\+e}
+\item 
+TLorentz\+Vector {\bfseries Z4\+\_\+e}
+\item 
+TLorentz\+Vector {\bfseries T4\+\_\+e}
+\item 
+TLorentz\+Vector \mbox{\hyperlink{group___four_vectors_ga55ccda795091032e80cd63a583575035}{X4\+\_\+q}}
+\item 
+TLorentz\+Vector {\bfseries Y4\+\_\+q}
+\item 
+TLorentz\+Vector {\bfseries Z4\+\_\+q}
+\item 
+TLorentz\+Vector {\bfseries T4\+\_\+q}
+\item 
+TLorentz\+Vector {\bfseries X4\+\_\+pipi}
+\item 
+TLorentz\+Vector {\bfseries Y4\+\_\+pipi}
+\item 
+TLorentz\+Vector \mbox{\hyperlink{group___four_vectors_ga11948d83cd38611616ae8cb8ec1dea98}{X4\+\_\+q\+CM}}
+\item 
+TLorentz\+Vector {\bfseries Y4\+\_\+q\+CM}
+\item 
+TLorentz\+Vector {\bfseries n4\+\_\+q\+CM}
+\item 
+TLorentz\+Vector {\bfseries n4\+Tilde\+\_\+q\+CM}
+\item 
+double \mbox{\hyperlink{_coherent_d_v_c_s___m_c_8hpp_a73a89909d4f9369b271aea5cabfe4bfb}{m\+Lepton}}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a2eed8c7da4b1754d68b5700b9be52763}\label{_coherent_d_v_c_s___m_c_8hpp_a2eed8c7da4b1754d68b5700b9be52763}} 
+double {\bfseries MIon}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a9f19597f805694d1c1f03f9d19cb53c1}\label{_coherent_d_v_c_s___m_c_8hpp_a9f19597f805694d1c1f03f9d19cb53c1}} 
+double {\bfseries m\+Pion}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a80d8abb26d0f5c1a64e3d35d124ce501}\label{_coherent_d_v_c_s___m_c_8hpp_a80d8abb26d0f5c1a64e3d35d124ce501}} 
+double {\bfseries emitt\+\_\+e} \mbox{[}3\mbox{]}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_aef3179622b0297181c645796fa61df45}\label{_coherent_d_v_c_s___m_c_8hpp_aef3179622b0297181c645796fa61df45}} 
+double {\bfseries emitt\+\_\+i} \mbox{[}3\mbox{]}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a50e3918c4cd9f9ee4a3757d6dcdb72aa}\label{_coherent_d_v_c_s___m_c_8hpp_a50e3918c4cd9f9ee4a3757d6dcdb72aa}} 
+double {\bfseries beta\+IP\+\_\+e} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a2640ca0f791f6e9fe2566f0c1e302de7}\label{_coherent_d_v_c_s___m_c_8hpp_a2640ca0f791f6e9fe2566f0c1e302de7}} 
+double {\bfseries beta\+IP\+\_\+i} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a6f032dae4131c13bd5080db077f4e158}\label{_coherent_d_v_c_s___m_c_8hpp_a6f032dae4131c13bd5080db077f4e158}} 
+int {\bfseries n\+Events}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a4c13a16c41d8507674d1cbc8dde3cdf3}\label{_coherent_d_v_c_s___m_c_8hpp_a4c13a16c41d8507674d1cbc8dde3cdf3}} 
+double {\bfseries Q2\+Min}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a5eb37c781f047defac49b713dca3a721}\label{_coherent_d_v_c_s___m_c_8hpp_a5eb37c781f047defac49b713dca3a721}} 
+double {\bfseries Q2\+Max}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a20d4c5d114c7d71b216de17d8351b407}\label{_coherent_d_v_c_s___m_c_8hpp_a20d4c5d114c7d71b216de17d8351b407}} 
+double {\bfseries y\+Min}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a0d6c1993983b373f049cf11435200fb7}\label{_coherent_d_v_c_s___m_c_8hpp_a0d6c1993983b373f049cf11435200fb7}} 
+double {\bfseries y\+Max}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_ae7bffccce25970e912d9b558f5b1327c}\label{_coherent_d_v_c_s___m_c_8hpp_ae7bffccce25970e912d9b558f5b1327c}} 
+double {\bfseries cs\+CMmin}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_afd092508046fb1d8ff08e8e99a497441}\label{_coherent_d_v_c_s___m_c_8hpp_afd092508046fb1d8ff08e8e99a497441}} 
+double {\bfseries cs\+CMmax}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a0878c9bfb800ee830c8173b5c02a0f2d}\label{_coherent_d_v_c_s___m_c_8hpp_a0878c9bfb800ee830c8173b5c02a0f2d}} 
+double {\bfseries W2\+Threshold}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_aa87157a092e7955e20dd962ab6cc1f47}\label{_coherent_d_v_c_s___m_c_8hpp_aa87157a092e7955e20dd962ab6cc1f47}} 
+double {\bfseries sqrt\+DL}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_ac08fa2a24ef355a016b0d080fb5d8402}\label{_coherent_d_v_c_s___m_c_8hpp_ac08fa2a24ef355a016b0d080fb5d8402}} 
+double {\bfseries deltaL}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_adeea2838ab324bb148291666d49ed24e}\label{_coherent_d_v_c_s___m_c_8hpp_adeea2838ab324bb148291666d49ed24e}} 
+double {\bfseries sqrt\+DQ}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a7f514a4fe53905e1658dc089671cf853}\label{_coherent_d_v_c_s___m_c_8hpp_a7f514a4fe53905e1658dc089671cf853}} 
+double {\bfseries deltaQ}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a063620e1f9e4fae496fd0674f1917ff9}\label{_coherent_d_v_c_s___m_c_8hpp_a063620e1f9e4fae496fd0674f1917ff9}} 
+double {\bfseries y\+Inv}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a48a8c59a9e0a9ad2dfebd47bfcd4ed59}\label{_coherent_d_v_c_s___m_c_8hpp_a48a8c59a9e0a9ad2dfebd47bfcd4ed59}} 
+double {\bfseries s\+Minus\+M2}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_aec0f81fd698c64a9c777cf5aa5864581}\label{_coherent_d_v_c_s___m_c_8hpp_aec0f81fd698c64a9c777cf5aa5864581}} 
+double {\bfseries x\+Bj}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a33826c63abdf1bed030b0dba0e9c5a6c}\label{_coherent_d_v_c_s___m_c_8hpp_a33826c63abdf1bed030b0dba0e9c5a6c}} 
+double {\bfseries psf}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_ac3aa0216db54e9c5926fa004884ea346}\label{_coherent_d_v_c_s___m_c_8hpp_ac3aa0216db54e9c5926fa004884ea346}} 
+double {\bfseries phi\+\_\+e}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_ab54fd7f2f97f4995ac214e9fb58f775e}\label{_coherent_d_v_c_s___m_c_8hpp_ab54fd7f2f97f4995ac214e9fb58f775e}} 
+double {\bfseries s\+\_\+e}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a63a3207d198302df77e4bb177339f18f}\label{_coherent_d_v_c_s___m_c_8hpp_a63a3207d198302df77e4bb177339f18f}} 
+double {\bfseries W2}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a0bb5cae858fc5029a6d950063227934f}\label{_coherent_d_v_c_s___m_c_8hpp_a0bb5cae858fc5029a6d950063227934f}} 
+double {\bfseries Q2}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a59c683fc2a93c7e8f9bc1c0b95a9fa76}\label{_coherent_d_v_c_s___m_c_8hpp_a59c683fc2a93c7e8f9bc1c0b95a9fa76}} 
+double {\bfseries k\+\_\+dot\+\_\+P}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_adeedc97114c5a704906c8e26bdbd2451}\label{_coherent_d_v_c_s___m_c_8hpp_adeedc97114c5a704906c8e26bdbd2451}} 
+const double {\bfseries alpha} = 1.\+0/137.\+03
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a43016d873124d39034edb8cd164794db}\label{_coherent_d_v_c_s___m_c_8hpp_a43016d873124d39034edb8cd164794db}} 
+const double {\bfseries pi} = acos(-\/1.\+0)
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_acb31a0847404e8414d9e065508c2aa6b}\label{_coherent_d_v_c_s___m_c_8hpp_acb31a0847404e8414d9e065508c2aa6b}} 
+const double {\bfseries umass} = 0.\+931494
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a3fa6cee5658698d51050163fea15f3ad}\label{_coherent_d_v_c_s___m_c_8hpp_a3fa6cee5658698d51050163fea15f3ad}} 
+int {\bfseries ionZ}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a843eeeae03f3e775ebc921cffd9b964e}\label{_coherent_d_v_c_s___m_c_8hpp_a843eeeae03f3e775ebc921cffd9b964e}} 
+int {\bfseries ionA}
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a266ae837fc0dcb3030890ed48db37c3a}\label{_coherent_d_v_c_s___m_c_8hpp_a266ae837fc0dcb3030890ed48db37c3a}} 
+const double {\bfseries eta\+Min} = -\/4.\+0
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_af8cccc8c65c645e18ec33992544d1ea5}\label{_coherent_d_v_c_s___m_c_8hpp_af8cccc8c65c645e18ec33992544d1ea5}} 
+const double {\bfseries eta\+El} = -\/1.\+7
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a32c686f25773f088a7b328c5ec87c236}\label{_coherent_d_v_c_s___m_c_8hpp_a32c686f25773f088a7b328c5ec87c236}} 
+const double {\bfseries eta\+Be} = -\/1.\+7
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a3e1a26a50ac701d2bf855214bdcfa004}\label{_coherent_d_v_c_s___m_c_8hpp_a3e1a26a50ac701d2bf855214bdcfa004}} 
+const double {\bfseries eta\+B0} = 0.\+0
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_afda0df267f784edfecea46944393c088}\label{_coherent_d_v_c_s___m_c_8hpp_afda0df267f784edfecea46944393c088}} 
+const double {\bfseries eta\+Bi} = 1.\+4
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a24620073efb3b0fa40982791d7417428}\label{_coherent_d_v_c_s___m_c_8hpp_a24620073efb3b0fa40982791d7417428}} 
+const double {\bfseries eta\+Max} = 4.\+0
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_ad13d53e22ca296a35063193a976ac2ac}\label{_coherent_d_v_c_s___m_c_8hpp_ad13d53e22ca296a35063193a976ac2ac}} 
+const double {\bfseries re\+\_\+\+EMCal} = 1.\+2
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a7e9919dd1b5a660444ec68e595d62277}\label{_coherent_d_v_c_s___m_c_8hpp_a7e9919dd1b5a660444ec68e595d62277}} 
+const double {\bfseries r\+Barrel} = 0.\+6
+\item 
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_af22075d8ff8792571d5ae8e7e2f79870}\label{_coherent_d_v_c_s___m_c_8hpp_af22075d8ff8792571d5ae8e7e2f79870}} 
+const double {\bfseries ri\+\_\+\+EMCal} = 2.\+6
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+File defines global variables (constants, and event-\/by-\/event variables). 
+
+
+
+\doxysubsubsection{Variable Documentation}
+\mbox{\Hypertarget{_coherent_d_v_c_s___m_c_8hpp_a73a89909d4f9369b271aea5cabfe4bfb}\label{_coherent_d_v_c_s___m_c_8hpp_a73a89909d4f9369b271aea5cabfe4bfb}} 
+\index{CoherentDVCS\_MC.hpp@{CoherentDVCS\_MC.hpp}!mLepton@{mLepton}}
+\index{mLepton@{mLepton}!CoherentDVCS\_MC.hpp@{CoherentDVCS\_MC.hpp}}
+\doxyparagraph{\texorpdfstring{mLepton}{mLepton}}
+{\footnotesize\ttfamily double m\+Lepton}
+
+Invariants, definied in routine Init() 

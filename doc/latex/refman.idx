@@ -1,0 +1,32 @@
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{1}
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}!k4Beam@{k4Beam}|hyperpage}{2}
+\indexentry{k4Beam@{k4Beam}!Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{2}
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}!n4\_e@{n4\_e}|hyperpage}{2}
+\indexentry{n4\_e@{n4\_e}!Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{2}
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}!n4\_e0@{n4\_e0}|hyperpage}{2}
+\indexentry{n4\_e0@{n4\_e0}!Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{2}
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}!X4\_q@{X4\_q}|hyperpage}{3}
+\indexentry{X4\_q@{X4\_q}!Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{3}
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}!X4\_qCM@{X4\_qCM}|hyperpage}{3}
+\indexentry{X4\_qCM@{X4\_qCM}!Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{3}
+\indexentry{Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}!Y4\_Det@{Y4\_Det}|hyperpage}{3}
+\indexentry{Y4\_Det@{Y4\_Det}!Global event-\/by-\/event four-\/vectors@{Global event-\/by-\/event four-\/vectors}|hyperpage}{3}
+\indexentry{src/CoherentDVCS\_MC.cxx@{src/CoherentDVCS\_MC.cxx}|hyperpage}{3}
+\indexentry{src/CoherentDVCS\_MC.hpp@{src/CoherentDVCS\_MC.hpp}|hyperpage}{4}
+\indexentry{CoherentDVCS\_MC.hpp@{CoherentDVCS\_MC.hpp}!mLepton@{mLepton}|hyperpage}{6}
+\indexentry{mLepton@{mLepton}!CoherentDVCS\_MC.hpp@{CoherentDVCS\_MC.hpp}|hyperpage}{6}
+\indexentry{src/include/Deep\_event.cxx@{src/include/Deep\_event.cxx}|hyperpage}{6}
+\indexentry{Deep\_event.cxx@{Deep\_event.cxx}!EventLightCone@{EventLightCone}|hyperpage}{7}
+\indexentry{EventLightCone@{EventLightCone}!Deep\_event.cxx@{Deep\_event.cxx}|hyperpage}{7}
+\indexentry{Deep\_event.cxx@{Deep\_event.cxx}!Get\_Event@{Get\_Event}|hyperpage}{7}
+\indexentry{Get\_Event@{Get\_Event}!Deep\_event.cxx@{Deep\_event.cxx}|hyperpage}{7}
+\indexentry{Deep\_event.cxx@{Deep\_event.cxx}!LeviCivita4vec@{LeviCivita4vec}|hyperpage}{8}
+\indexentry{LeviCivita4vec@{LeviCivita4vec}!Deep\_event.cxx@{Deep\_event.cxx}|hyperpage}{8}
+\indexentry{Deep\_event.cxx@{Deep\_event.cxx}!LeviCivitaScalar@{LeviCivitaScalar}|hyperpage}{9}
+\indexentry{LeviCivitaScalar@{LeviCivitaScalar}!Deep\_event.cxx@{Deep\_event.cxx}|hyperpage}{9}
+\indexentry{src/include/ScatAmp.cxx@{src/include/ScatAmp.cxx}|hyperpage}{9}
+\indexentry{ScatAmp.cxx@{ScatAmp.cxx}!LeptonAntiTensor@{LeptonAntiTensor}|hyperpage}{9}
+\indexentry{LeptonAntiTensor@{LeptonAntiTensor}!ScatAmp.cxx@{ScatAmp.cxx}|hyperpage}{9}
+\indexentry{ScatAmp.cxx@{ScatAmp.cxx}!LeptonSymmTensor@{LeptonSymmTensor}|hyperpage}{10}
+\indexentry{LeptonSymmTensor@{LeptonSymmTensor}!ScatAmp.cxx@{ScatAmp.cxx}|hyperpage}{10}
+\indexentry{src/include/ScatAmp.hxx@{src/include/ScatAmp.hxx}|hyperpage}{10}

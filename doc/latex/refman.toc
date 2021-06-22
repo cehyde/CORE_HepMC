@@ -1,0 +1,36 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {section}{\numberline {1}Module Index}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Modules}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}File Index}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}File List}{1}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Module Documentation}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Global event-\/by-\/event four-\/vectors}{1}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Detailed Description}{2}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Variable Documentation}{2}{subsubsection.3.1.2}%
+\contentsline {paragraph}{\numberline {3.1.2.1}k4Beam}{2}{paragraph.3.1.2.1}%
+\contentsline {paragraph}{\numberline {3.1.2.2}n4\_e}{2}{paragraph.3.1.2.2}%
+\contentsline {paragraph}{\numberline {3.1.2.3}n4\_e0}{3}{paragraph.3.1.2.3}%
+\contentsline {paragraph}{\numberline {3.1.2.4}X4\_q}{3}{paragraph.3.1.2.4}%
+\contentsline {paragraph}{\numberline {3.1.2.5}X4\_qCM}{3}{paragraph.3.1.2.5}%
+\contentsline {paragraph}{\numberline {3.1.2.6}Y4\_Det}{3}{paragraph.3.1.2.6}%
+\contentsline {section}{\numberline {4}File Documentation}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}src/\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Coherent\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}DVCS\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}MC.cxx File Reference}{3}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Detailed Description}{4}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}src/\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Coherent\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}DVCS\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}MC.hpp File Reference}{4}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Detailed Description}{6}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Variable Documentation}{6}{subsubsection.4.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1}mLepton}{6}{paragraph.4.2.2.1}%
+\contentsline {subsection}{\numberline {4.3}src/include/\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Deep\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}event.cxx File Reference}{6}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Detailed Description}{6}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Function Documentation}{7}{subsubsection.4.3.2}%
+\contentsline {paragraph}{\numberline {4.3.2.1}EventLightCone()}{7}{paragraph.4.3.2.1}%
+\contentsline {paragraph}{\numberline {4.3.2.2}Get\_Event()}{8}{paragraph.4.3.2.2}%
+\contentsline {paragraph}{\numberline {4.3.2.3}LeviCivita4vec()}{9}{paragraph.4.3.2.3}%
+\contentsline {paragraph}{\numberline {4.3.2.4}LeviCivitaScalar()}{9}{paragraph.4.3.2.4}%
+\contentsline {subsection}{\numberline {4.4}src/include/\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Scat\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Amp.cxx File Reference}{9}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Detailed Description}{9}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Function Documentation}{9}{subsubsection.4.4.2}%
+\contentsline {paragraph}{\numberline {4.4.2.1}LeptonAntiTensor()}{10}{paragraph.4.4.2.1}%
+\contentsline {paragraph}{\numberline {4.4.2.2}LeptonSymmTensor()}{10}{paragraph.4.4.2.2}%
+\contentsline {subsection}{\numberline {4.5}src/include/\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Scat\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Amp.hxx File Reference}{10}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Detailed Description}{10}{subsubsection.4.5.1}%
